@@ -1,0 +1,1 @@
+The goal is to develop a predictive model for classifying heart disease using various medical and patient-related features. Several machine learning algorithms such as logistic regression, and random forest classifiers etc. will be explored and compared to determine which approach yields the most promising results. 
