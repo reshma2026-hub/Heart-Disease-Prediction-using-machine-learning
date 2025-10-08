@@ -31,7 +31,7 @@ def heartdisease_prediction(input_data):
       return 'The person has a heart disease'
   
     
- def main():
+def main():
      
      # giving title
      st.title('Heart Disease Prediction Web App')
@@ -68,4 +68,5 @@ if __name__ == '__main__':
      
      
      
+
 
