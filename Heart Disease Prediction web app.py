@@ -37,7 +37,6 @@ def heartdisease_prediction(input_data):
      st.title('Heart Disease Prediction Web App')
      
      # getting input data from user
-     age	sex	cp	trestbps	chol	fbs	restecg	thalach	exang	oldpeak	slope	ca	thal	
      age=st.text_input('Age of the Person')
      sex=st.text_input('Sex of the Person')
      cp=st.text_input('Constrictive Pericarditis')
@@ -51,16 +50,16 @@ def heartdisease_prediction(input_data):
      slope=st.text_input('ST Segment Slope ')
      ca=st.text_input('The Number of Blood Vessel blocked')
      thal=st.text_input('Thalassemia')
-        
+
      
-      # code for prediction
-      diagnosis= ''
+     # code for prediction
+     diagnosis= ''
       
       # creating a button for prediction
-      if st.button('Heart Disease Test Result'):
-          diagnosis=heartdisease_prediction([age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal])
+     if st.button('Heart Disease Test Result'):
+         diagnosis=heartdisease_prediction([age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal])
           
-      st.success(diagnosis)
+     st.success(diagnosis)
       
       
       
@@ -69,3 +68,4 @@ if __name__ == '__main__':
      
      
      
+
